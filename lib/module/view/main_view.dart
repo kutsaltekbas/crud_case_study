@@ -2,7 +2,7 @@ import 'package:crud_case_study/module/view_model/main_view_model.dart';
 import 'package:flutter/material.dart';
 
 class MainView extends StatefulWidget {
-  const MainView({Key? key}) : super(key: key);
+  const MainView({super.key});
 
   @override
   State<MainView> createState() => _MainViewState();
@@ -20,7 +20,7 @@ class _MainViewState extends State<MainView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Main View"),
+        title: const Text("Stok Kontrol Sistemi"),
       ),
     );
   }
